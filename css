@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        
+        
+<style>
+   
+.myDiv {
+    position:relative;
+    top:11px;
+}    
+    
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #1bc2a2;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: white;
+ 
+}
+
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+
+ul li a:hover { background: #1bc2a2; }
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #1bc2a2; 
+border-radius: 1.5px;
+color: white;}
+
+li:hover li a:hover { background: #246133;}
+
+.main-navigation li ul li { border-top: 0; }
+    
+
+</style>     
+        
+    </head>
+    <body>
+               
+        <div class="myDiv">
+            <h1>GETUWIRED</h1>
+      </div>
+    <ul class="main-navigation">
+        <li><a href="#">ABOUT</a>
+        
+        <ul>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="#">OUR COMMITMENT TO YOU</a></li>
+        </ul>
+        </li>
+        <li><a href="#">LOCATIONS</a>
+            <ul>
+                <li><a href="#">AUSTIN, TX</a></li>
+                <li><a href="#">ATLANTA, GA</a></li>
+                <li><a href="#">SEATTLE, WA</a></li>
+                <li><a href="#">PORTLAND, OR</a>
+            </ul>
+        </li>
+        <li><a href="#">PRODUCTS</a>
+            <ul>
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">FEATURED</a></li>
+                <li><a href="#">TOP RATED</a></li>
+                <li><a href="#">HIS</a></li>
+                <li><a href="#">HERS</a>
+                <li><a href="#">KIDS</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+                <li><a href="#">SPRING CATALOG</a></li>
+                <li><a href="#">THE ESSENTIALS</a></li>
+                <li><a href="#">SALE</a>
+                   
+                </li>
+                
+            </ul>
+        </li>
+        
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
+
+  <img src ="http://www.getuwired.com/devtest/Death_to_stock_photography_Vibrant.jpg" alt="GUW"
+     style="width:1320px;height:650px;">
+  
+        
+    </body>
+</html>
